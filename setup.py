@@ -24,6 +24,7 @@ def find_version():
     )
     return result.group(1)
 
+print("hello world")
 
 # Dependencies
 requirements = ["numpy", "pandas", "scipy", "scikit-learn", "matplotlib"]
